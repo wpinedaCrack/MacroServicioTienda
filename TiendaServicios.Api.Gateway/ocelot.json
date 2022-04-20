@@ -28,6 +28,7 @@
         "LibroHandler"
       ]
     },
+    ///////////////////////////////////////////////////
     {
       "DownstreamPathTemplate": "/api/Autor",
       "DownstreamScheme": "http",
@@ -54,12 +55,13 @@
       "UpstreamHttpMethod": [ "GET", "DELETE" ],
       "Key": "Autor"
     },
+    ///////////////////////////////////////////////////
     {
       "DownstreamPathTemplate": "/api/CarritoCompras",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "tiendaservicios.api.carritocompra",
+          "Host": "TiendaServicios.Api.CarritosCompra",
           "Port": "80"
         }
       ],
@@ -71,11 +73,11 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "tiendaservicios.api.carritocompra",
+          "Host": "TiendaServicios.Api.CarritosCompra",
           "Port": "80"
         }
       ],
-      "UpstreamPathTemplate": "/CarritoCompra/{id}",
+      "UpstreamPathTemplate": "/CarritoCompras/{id}",
       "UpstreamHttpMethod": [ "GET", "DELETE" ]
     }
   ],
